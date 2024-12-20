@@ -11,7 +11,7 @@
   z-index: 99;
 }
 .navbar:hover{
-  background: transparent;
+  /* background: transparent; */
 }
 .affix {
   top: 0;

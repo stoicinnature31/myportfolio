@@ -184,3 +184,20 @@ textarea {
   }
 }
 
+.Toastify__toast--success {
+  background-color: #0e8def; /* Green background */
+  color: white; /* White text */
+  font-size: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Toastify__toast--error {
+  background-color: #dc3545; /* Red background */
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
