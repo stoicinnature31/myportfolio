@@ -27,6 +27,12 @@ const Work = () => {
             <div className="projectName">MOVIE WEBSITE</div>
             <div className="technology">REACT, TAILWIND, JAVASCRIPT, POSTMAN, OMDB API</div>
             </div></a>
+            <a href="https://searchrecipee.vercel.app/" target ="blank">
+            <div className="project">
+            <div className="duration">APRIL'24</div>
+            <div className="projectName">RECIPE SEARCH</div>
+            <div className="technology">JAVASCRIPT, NEXTJS, CSS3</div>
+            </div></a>
                 
       </div>
       </div>
