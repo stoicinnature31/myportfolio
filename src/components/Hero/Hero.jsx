@@ -37,16 +37,16 @@ const Hero = () => {
       </div>
         <div className="countUp">
         <div className="box">
-          <p className="number"> {counterState && <CountUp start={0} end={3} duration={3}></CountUp>}+</p>
+          <p className="number"> {counterState && <CountUp start={0} end={3} duration={2}></CountUp>}+</p>
           <p className="text">YEARS OF EXPERIENCE</p>
         </div>
         <div className="box">
-          <p className="number">{counterState && <CountUp start={0} end={10} duration={3}></CountUp>}+</p>
+          <p className="number">{counterState && <CountUp start={0} end={10} duration={2}></CountUp>}+</p>
           <p className="text">PROJECTS</p>
         </div>
         <div className="box">
-          <p className="number">{counterState && <CountUp start={0} end={50} duration={3}></CountUp>}+</p>
-          <p className="text">HAPPY CLIENTS</p>
+          <p className="number">{counterState && <CountUp start={0} end={15} duration={2}></CountUp>}+</p>
+          <p className="text">TECHNOLOGIES KNOWN</p>
         </div>
       </div>
     </ScrollTrigger>

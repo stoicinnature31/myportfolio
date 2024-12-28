@@ -10,7 +10,7 @@
     margin: 180px 0;
     box-shadow: #5505f6 0px 2px 8px 0px;
     transition: all 0.2s ease;
-    border-radius: 50PX;
+    /* border-radius: 50PX; */
 }
 .hero img:hover{
     cursor: pointer;

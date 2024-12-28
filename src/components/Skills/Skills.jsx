@@ -1,7 +1,8 @@
 import React  from 'react'
 import './Skills.css'
-import { useGSAP } from '@gsap/react'
-import gsap from 'gsap'
+import { SiPostman } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
+import { FaGithub } from "react-icons/fa";
 
 const Skills = () => {
 
@@ -19,9 +20,14 @@ const Skills = () => {
         <div className="skillName">C++</div>
         </div>
         <div className="skill">
+        <i class='bx bxl-html5' ></i>
+        <div className="percentage">90%</div>
+        <div className="skillName">HTML5</div>
+        </div>
+        <div className="skill">
         <i className='bx bxl-css3' ></i>
         <div className="percentage">90%</div>
-        <div className="skillName">CSS</div>
+        <div className="skillName">CSS3</div>
         </div>
         <div className="skill">
         <i className='bx bxl-javascript' ></i>
@@ -29,9 +35,19 @@ const Skills = () => {
         <div className="skillName">JAVASCRIPT</div>
         </div>
         <div className="skill">
+        <i class='bx bxl-typescript'></i>
+        <div className="percentage">65%</div>
+        <div className="skillName">TYPESCRIPT</div>
+        </div>
+        <div className="skill">
         <i className='bx bxl-react' ></i>
-        <div className="percentage">60%</div>
+        <div className="percentage">85%</div>
         <div className="skillName">REACT</div>
+        </div>
+        <div className="skill">
+        <RiNextjsFill />
+        <div className="percentage">80%</div>
+        <div className="skillName">NEXT</div>
         </div>
         <div className="skill">
         <i className='bx bxl-bootstrap' ></i>
@@ -44,24 +60,34 @@ const Skills = () => {
         <div className="skillName">MONGODB</div>
         </div>
         <div className="skill">
+        <SiPostman />
+        <div className="percentage">80%</div>
+        <div className="skillName">POSTMAN</div>
+        </div>
+        <div className="skill">
         <i className='bx bxl-nodejs' ></i>
         <div className="percentage">50%</div>
         <div className="skillName">NODEJS</div>
         </div>
         <div className="skill">
         <i className='bx bxl-tailwind-css' ></i>
-        <div className="percentage">50%</div>
+        <div className="percentage">70%</div>
         <div className="skillName">TAILWIND-CSS</div>
         </div>
         <div className="skill">
         <i className='bx bxl-visual-studio' ></i>
         <div className="percentage">50%</div>
-        <div className="skillName">VISUAL STUDIO</div>
+        <div className="skillName">VS CODE</div>
         </div>
         <div className="skill">
         <i className='bx bxl-redux' ></i>
         <div className="percentage">50%</div>
         <div className="skillName">REDUX</div>
+        </div>
+        <div className="skill">
+        <FaGithub />
+        <div className="percentage">70%</div>
+        <div className="skillName">GIT/GITHUB</div>
         </div>
       </div>
     </div>
