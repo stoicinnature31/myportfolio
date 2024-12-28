@@ -10,9 +10,6 @@
   width: 100%;
   z-index: 99;
 }
-.navbar:hover{
-  /* background: transparent; */
-}
 .affix {
   top: 0;
   width: 100%;
