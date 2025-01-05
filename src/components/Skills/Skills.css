@@ -75,3 +75,26 @@
         padding: 1rem 5rem;
     } */
 }
+
+
+
+/* Animation */
+@keyframes animate{
+    from{
+        opacity: 0;
+        /* clip-path: inset(100% 100% 0 0); */
+        transform: translateX(-200px);
+    }
+    to{
+        opacity: 1;
+        /* clip-path: inset(0 0 0 0); */
+        transform: translateX(0px);
+    }
+}
+
+.skill, .skills{
+    animation-name: animate;
+    animation-timing-function: linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
